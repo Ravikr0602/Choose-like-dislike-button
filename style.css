@@ -79,3 +79,22 @@ button
   .red{
     color: red;
   }
+ @media screen and (max-width:768px)
+  {
+   .box
+   {
+     width: 90%;
+   }
+   #title
+   {
+     font-size: 2rem;
+   }
+   .button_box
+   {
+     width: 92%;
+   }  
+   button
+   {
+     padding: 17px;
+   }
+  }
